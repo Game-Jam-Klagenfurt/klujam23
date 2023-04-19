@@ -1,0 +1,275 @@
+.row {
+  /* margin-top: 32px; */
+  padding: 30px
+}
+
+.row-heading {
+  color: #73499a;
+  font-size: 20pt;
+  text-transform: uppercase;
+}
+
+/* h1,
+h2,
+h3 {
+  margin-bottom: 8pt;
+  margin-top: 12pt;
+  font-family: "Lato";
+} */
+
+.sponsor-wide {
+  margin-top: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 120px;
+  max-width: 95%;
+}
+
+.sponsor-square {
+  margin-top: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 160px;
+  max-width: 95%;
+}
+
+.ruler {
+  clear: both;
+  width: 15%;
+  background-color: #d1d1d1;
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.jam-bullet {
+  padding-left: 6pt;
+  padding-right: 6pt;
+  color: #73499a;
+}
+
+.jam-list {
+list-style-type: none;
+margin-left: 2;
+padding-left: 0;
+}
+
+.signUpHeader {
+  line-height: 55px;
+  height: 55px;
+  color: white;
+}
+.signUpHeaderWrapper {
+  position: fixed;
+  top:0;
+  width:100%;
+  background-color: #2D2D2D;
+}
+.signUpHeaderWrapper > .container {
+  padding:0;
+}
+
+.navbar-dark {
+  background-color: transparent;
+}
+.signUpButton {
+  text-transform: uppercase;
+  height: 55px;
+  color:white;
+  background-color: #79c04f;
+  float:right;
+  border:0;
+  width:220px;
+  margin-right: 4px
+}
+
+.signUpButton:hover, .bigGreenButton:hover{
+  background-color: #43934f;
+}
+
+.navbar-brand > img {
+  width: 250px;
+  margin-top:12px;
+  margin-left:-6px;
+}
+.navbar-nav {
+  float:right;
+}
+.navbar {
+  padding: 0;
+  line-height: 85px;
+}
+.navbar > .container {
+  border-bottom: 1px solid #79c04f;
+  padding:0;
+}
+.navbar .nav li a.nav-link {
+  color: #79c04f;
+}
+nav {
+  background-color: transparent;
+}
+.navbar-fixed-top {
+  top:55px;
+}
+
+#headerSlider {
+  height:600px;
+  margin-top: 50px;
+}
+#headerSlider .carousel-item {
+  height:600px;
+}
+
+.bigGreenButton {
+  text-transform: uppercase;
+  background-color: #79c04f;
+  color: white;
+  width: 350px;
+  height: 55px;
+  border: 0;
+}
+
+.carousel-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}
+.headerOverlay {
+  pointer-events: none;
+  height:600px;
+  position: absolute;
+  z-index: -10;
+  width:100%;
+  background-image: url('../images/gamejam-webseite_header-shadow.png');
+  background-repeat: repeat-x;
+  opacity: 0.9;
+}
+
+@media (min-width: 544px) {
+  .carousel-caption {
+    top: 190px;
+    text-align: center !important;
+  }
+}
+/* 
+.carousel-caption {
+  text-shadow: 0 0px 14px rgba(0, 0, 0, 1);
+} */
+.carousel-text-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.small-container-heaeder {
+  width: 500px;
+}
+
+a {
+  color: #79c04f;
+}
+
+a:hover {
+  color: #43934f;
+  text-decoration: dashed;
+}
+
+.bg-lightGrey {
+  background-color: #f1f1f1;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+.nav-item:hover a {
+   color: #79c04f !important;
+   text-shadow: 0 0px 14px #79c04f;
+}
+
+.nav-item .active a {
+   color: #79c04f !important;
+   text-shadow: 0 0px 14px #79c04f;
+}
+
+@media (max-width: 768px) {
+  .signUpButton {
+    display:none !important;
+  }
+  .signUpHeader {
+    font-size: 9pt;
+    text-align: center;
+  }
+  .responsiveLogo {
+    width: 90%;
+  }
+  .responsiveLogoWrapper {
+    text-align: center;
+    width: 100%;
+  }
+  .headerOverlay {
+     background-size: 40% 40%;
+  }
+  .bigGreenButton {
+    width: auto !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .carousel-caption {
+    top: 120px;
+  }
+  .carousel-item:nth-child(2) img {
+    left:-9400px !important;
+  }
+  .row {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .flickr-embed-photo a img {
+    margin-left: -20px !important;
+  }
+}
+@media (min-width: 768px) {
+  .responsiveLogo {
+    display: none;
+  }
+}
+
+.sponsors DIV {
+  padding-top:20px;
+}
+
+.topentries td {
+  border: #79c04f;
+  font-size: 20pt;
+  padding: 0 10px
+
+}
+
+
+i.gold {
+  color: goldenrod;
+}
+
+i.silver {
+  color: silver;
+}
+
+i.bronze {
+  color: brown;
+}
+
+.gold-sponsor img {
+  box-shadow: 0 0 10px goldenrod;
+}
+
+
+.gold-sponsor img {
+  box-shadow: 0 0 10px goldenrod;
+}
